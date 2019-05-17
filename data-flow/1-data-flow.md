@@ -2,10 +2,10 @@
 -->
 
 sequenceDiagram
-    Apollo Client->>Apollo Server: Get all thumbnails()
-    Apollo Server-->>Apollo Client: Here are all thumbnails
-    Apollo Client->>Apollo Server: Get all Project Details(ResourceID)
-    Apollo Server-->>Apollo Client: Here are all Project Details
-    Apollo Client->>Apollo Server: Get all Current Projects()
-    Apollo Server-->>Apollo Client: Here are all Current Projects
+    Apollo Client->>Apollo Server: get thumbnails()
+    Apollo Server-->>Apollo Client: here are thumbnails
+    Apollo Client->>Apollo Server: get project details(ResourceID)
+    Apollo Server-->>Apollo Client: here are project details
+    Apollo Client->>Apollo Server: get current projects()
+    Apollo Server-->>Apollo Client: here are current projects
 
